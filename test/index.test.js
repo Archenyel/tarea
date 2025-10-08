@@ -1,4 +1,4 @@
-const hash = require('../index');
+const hash = require('./test.index');
 
 test('Prueba unitaria de hash', () => {
     const message = 'Hola Mundo';
