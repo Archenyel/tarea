@@ -6,4 +6,4 @@ function hash(mensaje){
     return hash.digest('hex');
 }
 
-module.exports = { hash };
+module.exports = hash;

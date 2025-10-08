@@ -1,7 +1,7 @@
-const hash = require('./test.index');
+const hash = require('./testindex');
 
 test('Prueba unitaria de hash', () => {
-    const message = 'Hola Mundo';
+    const message = 'contraseña';
     const hashedMessage = hash(message);
-    expect(hashedMessage).toEqual('872e4bdc3f3d5c0e8f6f2d2a4f4e6e5f6e7e8e9eaebecedeeeff0f1f2f3f4f5');
+    expect(hashedMessage).toEqual('edf9cf90718610ee7de53c0dcc250739239044de9ba115bb0ca6026c3e4958a5');
 });
