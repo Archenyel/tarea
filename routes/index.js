@@ -8,7 +8,7 @@ const key = crypto.randomBytes(32); // Genera una clave de 32 bytes (256 bits)
 const iv = crypto.randomBytes(16);  // Genera un IV de 16 bytes
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
